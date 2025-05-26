@@ -1,1 +1,114 @@
 # website-jerowaru
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pariwisata Desa Jerowaru</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+        header {
+            background-color: #006400;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #228b22;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #006400;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+        .contact {
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Desa Wisata Jerowaru</h1>
+    </header>
+
+    <nav>
+        <a href="#tentang">Tentang Desa</a>
+        <a href="#destinasi">Destinasi Wisata</a>
+        <a href="#event">Event Wisata</a>
+        <a href="#oleholeh">Oleh-oleh</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <section id="tentang">
+        <h2>Tentang Desa Jerowaru</h2>
+        <p>Desa Jerowaru terletak di Kabupaten Lombok Timur, Nusa Tenggara Barat. Dikenal dengan keindahan alamnya yang masih asri, desa ini menawarkan pengalaman wisata budaya, pertanian, dan bahari.</p>
+    </section>
+
+    <section id="destinasi">
+        <h2>Destinasi Wisata</h2>
+        <ul>
+            <li>Pantai Pink Jerowaru</li>
+            <li>Gili Sunut</li>
+            <li>Kampung Adat Jerowaru</li>
+            <li>Wisata Mangrove</li>
+        </ul>
+        <h3>Peta Lokasi</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.5473073565125!2d116.60412017414498!3d-8.903365890335217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcddc3881fa5177%3A0x68b2d38bc29e45f2!2sJerowaru%2C%20Lombok%20Timur!5e0!3m2!1sen!2sid!4v1689999999999!5m2!1sen!2sid"></iframe>
+    </section>
+
+    <section id="event">
+        <h2>Event Wisata</h2>
+        <ul>
+            <li>Festival Laut Tahunan - Juli</li>
+            <li>Pertunjukan Budaya Sasak - Setiap Bulan</li>
+            <li>Pasar Rakyat dan UMKM - Minggu Kedua Setiap Bulan</li>
+        </ul>
+    </section>
+
+    <section id="oleholeh">
+        <h2>Destinasi Oleh-oleh</h2>
+        <ul>
+            <li>Toko Tenun Khas Sasak</li>
+            <li>Pusat Oleh-oleh Makanan Khas (Dodol Rumput Laut, Keripik Teri Jerowaru)</li>
+            <li>Kerajinan Tangan dan Souvenir Lokal</li>
+        </ul>
+    </section>
+
+    <section id="kontak">
+        <h2>Kontak Penting</h2>
+        <div class="contact">
+            <p><strong>Kepala Desa:</strong> +62 812-3456-7890 (WhatsApp)</p>
+            <p><strong>Penyedia Homestay:</strong> +62 813-9876-5432 (WhatsApp)</p>
+            <p><strong>Tour Guide Lokal:</strong> +62 821-1234-5678 (WhatsApp)</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Desa Jerowaru - Promosi Pariwisata</p>
+    </footer>
+</body>
+</html>
